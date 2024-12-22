@@ -1,0 +1,56 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-androidx": {
+      "PACKAGE_NAME": "cutanddry.bakersbacon.mobile.ios"
+    },
+    "cordova-plugin-androidx-adapter": {
+      "PACKAGE_NAME": "cutanddry.bakersbacon.mobile.ios"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "cutanddry.bakersbacon.mobile.ios"
+    },
+    "cordova-plugin-customurlscheme": {
+      "URL_SCHEME": "saval.cutanddry",
+      "PACKAGE_NAME": "cutanddry.bakersbacon.mobile.ios"
+    },
+    "cordova-plugin-deeplinks": {
+      "PACKAGE_NAME": "cutanddry.bakersbacon.mobile.ios"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "cutanddry.bakersbacon.mobile.ios"
+    },
+    "cordova-plugin-firebasex": {
+      "FIREBASE_ANALYTICS_COLLECTION_ENABLED": "true",
+      "FIREBASE_PERFORMANCE_COLLECTION_ENABLED": "true",
+      "FIREBASE_CRASHLYTICS_COLLECTION_ENABLED": "true",
+      "PACKAGE_NAME": "cutanddry.bakersbacon.mobile.ios"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "cutanddry.bakersbacon.mobile.ios"
+    },
+    "cordova-plugin-intercom": {
+      "PACKAGE_NAME": "cutanddry.bakersbacon.mobile.ios"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "cutanddry.bakersbacon.mobile.ios"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "cutanddry.bakersbacon.mobile.ios"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "cutanddry.bakersbacon.mobile.ios"
+    }
+  },
+  "dependent_plugins": {
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "cutanddry.bakersbacon.mobile.ios"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+framework module Pods_Bakers_Bacon {
+  umbrella header "Pods-Bakers Bacon-umbrella.h"
+
+  export *
+  module * { export * }
+}

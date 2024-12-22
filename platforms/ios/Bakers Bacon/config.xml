@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-packageName="cutanddry.bakersbacon.mobile.android" id="cutanddry.bakersbacon.mobile.ios" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="CDVWebViewEngine">
+        <param name="ios-package" value="CDVWebViewEngine" />
+    </feature>
+    <feature name="LaunchScreen">
+        <param name="ios-package" value="CDVLaunchScreen" />
+    </feature>
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="Console">
+        <param name="ios-package" value="CDVLogger" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="HandleOpenUrl">
+        <param name="ios-package" value="CDVHandleOpenURL" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="IntentAndNavigationFilter">
+        <param name="ios-package" value="CDVIntentAndNavigationFilter" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="GestureHandler">
+        <param name="ios-package" value="CDVGestureHandler" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Camera">
+        <param name="ios-package" value="CDVCamera" />
+    </feature>
+    <feature name="UniversalLinks">
+        <param name="ios-package" value="CULPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+    </feature>
+    <feature name="FirebasePlugin">
+        <param name="ios-package" value="FirebasePlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVWKInAppBrowser" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Intercom">
+        <param name="ios-package" value="IntercomBridge" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-navigation href="ionic://*" />
+    <feature name="IonicWebView">
+        <param name="ios-package" value="CDVWKWebViewEngine" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="ios-package" value="CDVConnection" />
+    </feature>
+    <feature name="CDVOrientation">
+        <param name="ios-package" value="CDVOrientation" />
+    </feature>
+    <name>Bakers Bacon</name>
+    <description>Baker's Bacon Mobile App</description>
+    <author email="support@cutanddry.com">
+        Cut+Dry Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <access origin="about:*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-navigation href="about:*" />
+    <icon src="resources/BakersBaconAppIcon.png" />
+    <universal-links>
+        <ios-team-id value="246TQRHP2H" />
+        <host event="launchedAppFromLink" name="bakersbacon.cutanddry.com" scheme="https" />
+        <host name="bakersbacon.cutanddry.com" scheme="https">
+            <path event="launchedAppFromLink" url="/userspublic/loginRedirect/*" />
+            <path event="launchedAppFromLink" url="/cashback*" />
+            <path event="launchedAppFromLink" url="/*order*" />
+            <path event="launchedAppFromLink" url="*invoice*" />
+            <path event="launchedAppFromLink" url="*chat*" />
+        </host>
+        <host event="launchedAppFromLink" name="cutanddry.app.link" scheme="https" />
+    </universal-links>
+    <allow-navigation href="https://bakersbacon.cutanddry.com/*" />
+    <allow-navigation href="https://staging-bakersbacon.cutanddry.com/*" />
+    <allow-navigation href="gap://ready" />
+    <allow-navigation href="https://secure.safewebservices.com/*" />
+    <edit-config file="*-Info.plist" mode="merge" target="NSCameraUsageDescription">
+        <string>We need camera access to take photos of invoices.</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryUsageDescription">
+        <string>We need photo library access to get photos of invoices.</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSLocationWhenInUseUsageDescription">
+        <string>need location access to find things nearby</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryAddUsageDescription">
+        <string>need photo library access to save pictures there</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="CFBundleDisplayName">
+        <string>bakersbacon</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="IntercomUniversalLinkDomains">
+        <array>
+            <string>https://bakersbacon.cutanddry.com</string>
+            <string>https://staging-bakersbacon.cutanddry.com</string>
+        </array>
+    </edit-config>
+    <allow-intent href="itms:*" />
+    <allow-intent href="itms-apps:*" />
+    <icon height="57" src="resources/ios/icon/57.png" width="57" />
+    <icon height="114" src="resources/ios/icon/114.png" width="114" />
+    <icon height="40" src="resources/ios/icon/40.png" width="40" />
+    <icon height="80" src="resources/ios/icon/80.png" width="80" />
+    <icon height="50" src="resources/ios/icon/50.png" width="50" />
+    <icon height="100" src="resources/ios/icon/100.png" width="100" />
+    <icon height="60" src="resources/ios/icon/60.png" width="60" />
+    <icon height="120" src="resources/ios/icon/120.png" width="120" />
+    <icon height="180" src="resources/ios/icon/180.png" width="180" />
+    <icon height="72" src="resources/ios/icon/72.png" width="72" />
+    <icon height="144" src="resources/ios/icon/144.png" width="144" />
+    <icon height="76" src="resources/ios/icon/76.png" width="76" />
+    <icon height="152" src="resources/ios/icon/152.png" width="152" />
+    <icon height="167" src="resources/ios/icon/167.png" width="167" />
+    <icon height="29" src="resources/ios/icon/29.png" width="29" />
+    <icon height="58" src="resources/ios/icon/58.png" width="58" />
+    <icon height="87" src="resources/ios/icon/87.png" width="87" />
+    <icon height="1024" src="resources/ios/icon/1024.png" width="1024" />
+    <splash height="2668" src="resources/splash.png" width="1500" />
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaTypesRequiringUserActionForPlayback" value="none" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="SuppressesLongPressGesture" value="false" />
+    <preference name="Suppresses3DTouchGesture" value="false" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <preference name="CameraUsesGeolocation" value="false" />
+    <preference name="deployment-target" value="11.0" />
+    <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+    <preference name="ScrollEnabled" value="true" />
+    <preference name="AndroidLaunchMode" value="singleInstance" />
+    <preference name="intercom-android-push-type" value="FCM" />
+    <preference name="intercom-app-id" value="lxon3spp" />
+    <preference name="intercom-ios-api-key" value="ios_sdk-4c74b0f803fb085f0ad06250c050d9508962a059" />
+    <preference name="android-targetSdkVersion" value="34" />
+    <preference name="AndroidXEnabled" value="true" />
+    <preference name="ErrorUrl" value="index.html" />
+</widget>

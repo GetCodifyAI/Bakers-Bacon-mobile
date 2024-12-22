@@ -1,0 +1,181 @@
+{
+  "project_info": {
+    "project_number": "970449028457",
+    "project_id": "cut-dry-classic-5",
+    "storage_bucket": "cut-dry-classic-5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970449028457:android:444cb833159b556f2e69f8",
+        "android_client_info": {
+          "package_name": "cutanddry.apito.mobile.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuz3p0DGh8Q_l88eSlYh_DjBv3cXPjuLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970449028457:android:736cac4cd491076a2e69f8",
+        "android_client_info": {
+          "package_name": "cutanddry.bakersbacon.mobile.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuz3p0DGh8Q_l88eSlYh_DjBv3cXPjuLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970449028457:android:319354ba4faed9142e69f8",
+        "android_client_info": {
+          "package_name": "cutanddry.cheeseimporters.mobile.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuz3p0DGh8Q_l88eSlYh_DjBv3cXPjuLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970449028457:android:203751c2bd12ad722e69f8",
+        "android_client_info": {
+          "package_name": "cutanddry.cusumanoandsons.mobile.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuz3p0DGh8Q_l88eSlYh_DjBv3cXPjuLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970449028457:android:205de0a6634c09462e69f8",
+        "android_client_info": {
+          "package_name": "cutanddry.dvw.mobile.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuz3p0DGh8Q_l88eSlYh_DjBv3cXPjuLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970449028457:android:0987fcb0320590792e69f8",
+        "android_client_info": {
+          "package_name": "cutanddry.intermarket.mobile.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuz3p0DGh8Q_l88eSlYh_DjBv3cXPjuLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970449028457:android:bd25ae29a1a1b3052e69f8",
+        "android_client_info": {
+          "package_name": "cutanddry.mentoproduce.mobile.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuz3p0DGh8Q_l88eSlYh_DjBv3cXPjuLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970449028457:android:08e64105eea3cc182e69f8",
+        "android_client_info": {
+          "package_name": "cutanddry.misterproduce.mobile.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuz3p0DGh8Q_l88eSlYh_DjBv3cXPjuLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970449028457:android:6e309f0f947394f62e69f8",
+        "android_client_info": {
+          "package_name": "cutanddry.sierragoldseafood.mobile.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuz3p0DGh8Q_l88eSlYh_DjBv3cXPjuLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
